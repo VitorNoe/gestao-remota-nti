@@ -8,8 +8,8 @@ class AppCRUD:
         self.root.title("Gestão de Funcionários Remota")
         self.conexao = mysql.connector.connect(
             host='db4free.net',
-            user='SEU_USUARIO_DB4FREE',
-            password='SUA_SENHA_DB4FREE',
+            user='vitornoe',
+            password='arca0715',
             database='gestao_pessoal_remoto'
         )
         self.cursor = self.conexao.cursor()
